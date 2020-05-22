@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tensorflow js</title>
+ <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+
+  <style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: dark;
+   color: white;
+   text-align: center;
+}
+</style>
+
+</head>
+<body>
+	<nav class="navbar navbar-dark bg-dark">
+  <span class="navbar-brand mb-0 h1">Demo By Bantu Choudhary</span>
+</nav>
+<main>
+<div>
+<h1> <p id="s1"></p></h1>
+<h1> <p id="s2"></p></h1>
+<h1><p id="console"></p></h1>
+
+
+<video autoplay playsinline muted id="webcam" width="250" height="250"></video>
+<script type="text/javascript" src="model.js"></script>
+
+</div>
+
+
+</main>
+
+<div class="footer" >
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <div class="container text-center">
+      <small> <h5> Copyright &copy;2020 Bantu Choudhary</h5> </small>
+    </div>
+  </footer>
+</div>
+
+</body>
+</html>
